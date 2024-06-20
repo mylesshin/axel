@@ -1,8 +1,11 @@
-# React + Vite
+# Axel
+This my front-end webpage for a mock store. I used fakestoreapi.com to get the data for the items to populate the store.
+Axel allows users to browse through the catalog, add items to their cart, and edit/remove items from the cart.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Built this to practice learning more front-end :)
 
-Currently, two official plugins are available:
+Tech Stack: React.js, Vite.js, HTML, CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot](public/homepage.png)
+![Screenshot](public/itemoverview.png)
+![Screenshot](public/shoppingcart.png)
