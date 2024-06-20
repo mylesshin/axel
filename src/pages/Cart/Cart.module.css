@@ -1,0 +1,89 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px 50px 0px 50px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.freeShipping{
+    font-weight: 600;       
+    font-size: 1.6rem;
+    padding: 20px 20px;
+}
+
+.bag{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.summary{
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+.leftSide{
+    display: flex;
+    flex: 2.5;
+    flex-direction: column;
+    align-items: flex-start;
+    position: sticky;
+    margin-right: 20px;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.lineItem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hr{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.checkout{
+    background-color: #ccd5ae;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding: 15px 50px;
+    border-radius: 20px;
+    max-width: 300px;
+    margin-top: 20px;
+
+}
+
+.grey{
+    background-color: #c1c7c9;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    height: 23px;
+    width: auto;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

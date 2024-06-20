@@ -1,0 +1,57 @@
+#nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.name:hover, .products:hover, .cart:hover {
+    opacity: 0.5;
+}
+
+.shoppingCart {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+}
+
+.products{
+    font-size: 1.2rem;
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+.name{
+    font-weight: 800;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.bubble {
+    height: 15px;
+    width: 15px;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    background-color: red;
+    position: absolute;
+    border-radius: 50px;
+    top: 12px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

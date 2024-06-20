@@ -1,0 +1,9 @@
+.banner{
+     background-color: #ccd5ae;
+     text-decoration: underline;
+     height: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
